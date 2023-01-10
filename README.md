@@ -2,7 +2,10 @@
 Part of a video tutorial on how to setup a semi-automated system to generate subtitles for your video files on Windows.
 This uses the Whisper.cpp implementation of OpenAI's Whisper which allows it to run on the CPU and get better performance plus it's possibly easier to get up and running.
 
-Note: Doesnt work on some Celeron processors. See https://github.com/ggerganov/whisper.cpp/issues/392
+Note: This should work on Intel Processors that have the i name i3/i5/i7 etc doesnt work on some Pentium/Celeron processors. 
+See https://github.com/ggerganov/whisper.cpp/issues/392 
+You can use the utility CPU-Z to check for AVX support on your CPU. 
+https://www.cpuid.com/softwares/cpu-z.html
 
 Downloads<br/>
 
