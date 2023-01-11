@@ -1,4 +1,4 @@
-# WhisperSubsWindows
+# Whisper Subtitle Generator
 Part of a video tutorial on how to setup a semi-automated system to generate subtitles for your video files on Windows.
 This uses the Whisper.cpp implementation of OpenAI's Whisper which allows it to run on the CPU and get better performance plus it's possibly easier to get up and running.
 
